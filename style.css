@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100dvh;
+  width: 100%;
+}
+
+#popoverBtn {
+ border: none;
+ border-radius: 10px;
+ padding: 10px 20px;
+ background-color: aquamarine;
+}
+
+#popoverBtn:hover {
+ background-color: lightgray;
+}
+
+.popover {
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+  width: 70%;
+  height: 100px;
+  background-color: lightgray;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.popover:popover-open  {
+  display: flex;
+}
